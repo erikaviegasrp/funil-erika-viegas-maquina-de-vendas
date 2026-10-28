@@ -1,0 +1,21 @@
+{
+  "name": "funil-erika-viegas-maquina-de-vendas",
+  "displayName": "Funil Érika Viegas para Máquina de Vendas",
+  "version": "1.0.0",
+  "type": "portable-ai-skill",
+  "entrypoints": {
+    "skill": "SKILL.md",
+    "portablePrompt": "Funil-Erika-Viegas-portable.md",
+    "windowsInstaller": "install.ps1"
+  },
+  "resources": {
+    "references": "references/",
+    "scripts": "scripts/"
+  },
+  "activation": {
+    "compatibleModes": ["skill-directory", "system-prompt", "project-instructions", "context-files"],
+    "requiresProviderSpecificSetup": true,
+    "notes": "MCP hosts differ; import SKILL.md or the portable prompt according to the host documentation."
+  },
+  "license": "MIT"
+}

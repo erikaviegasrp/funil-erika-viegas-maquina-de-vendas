@@ -1,0 +1,21 @@
+{
+  "name": "funil-erika-viegas-maquina-de-vendas",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Skill e prompt portátil para estruturar máquinas de vendas Funil Érika Viegas por cliente.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "SKILL.md",
+    "Funil-Erika-Viegas-portable.md",
+    "install.ps1",
+    "install.sh",
+    "skill-manifest.json",
+    "INSTALL-WINDOWS.md",
+    "references/",
+    "scripts/",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ]
+}

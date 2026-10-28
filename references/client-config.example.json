@@ -1,0 +1,87 @@
+{
+  "client": {
+    "name": "Nome do cliente",
+    "slug": "cliente-slug",
+    "industry": "SST / B2B",
+    "landingPage": "https://cliente.com/landing",
+    "servicePages": [],
+    "logo": "asset aprovado ou URL",
+    "references": [],
+    "brand": {
+      "primary": "#08263c",
+      "secondary": "#1769d5",
+      "accent": "#f6bd28",
+      "background": "#f4f0e8",
+      "fonts": ["Manrope", "Space Grotesk"],
+      "imageTreatment": "fotografia B2B técnica"
+    }
+  },
+  "audience": {
+    "segments": ["segmento principal"],
+    "decisionMakers": ["responsável"],
+    "regions": ["região"],
+    "objections": ["objeção principal"]
+  },
+  "offer": {
+    "name": "Nome real da oferta",
+    "valueProposition": "Oferta de valor aprovada",
+    "entryOffer": "Diagnóstico, consulta ou material aprovado",
+    "cta": "CTA aprovado",
+    "proof": [],
+    "claimsAllowed": [],
+    "claimsProhibited": []
+  },
+  "campaigns": [
+    {
+      "id": "campaign-tof",
+      "name": "Nome real da campanha de atração",
+      "stage": "tof",
+      "objective": "reconhecimento e audiência qualificada",
+      "offer": "oferta de atração",
+      "destination": "URL ou evento",
+      "owner": "Responsável real",
+      "status": "draft"
+    },
+    {
+      "id": "campaign-mof",
+      "name": "Nome real da campanha de consideração",
+      "stage": "mof",
+      "objective": "visita engajada e consideração",
+      "offer": "oferta de consideração",
+      "destination": "URL ou evento",
+      "owner": "Responsável real",
+      "status": "draft"
+    },
+    {
+      "id": "campaign-bof",
+      "name": "Nome real da campanha de conversão",
+      "stage": "bof",
+      "objective": "lead, WhatsApp ou reunião",
+      "offer": "oferta de conversão",
+      "destination": "formulário/CRM",
+      "owner": "Responsável real",
+      "status": "draft"
+    }
+  ],
+  "crm": {
+    "tool": "Nome do CRM",
+    "stages": ["novo lead", "triagem", "contato", "reunião", "proposta", "ganho", "perdido"],
+    "owners": [{ "name": "Responsável", "role": "Comercial", "slaHours": 4 }],
+    "sourceFields": ["utm_source", "utm_medium", "utm_campaign", "utm_content", "ad_id", "placement"],
+    "events": ["lead_created", "contacted", "meeting_booked", "proposal_sent", "won", "lost"]
+  },
+  "capture": {
+    "formFields": ["nome", "empresa", "email", "telefone", "necessidade"],
+    "consentText": "Texto aprovado de privacidade",
+    "successMessage": "Mensagem aprovada após envio",
+    "destination": "CRM ou endpoint"
+  },
+  "approval": {
+    "headlineApproved": false,
+    "offerApproved": false,
+    "visualApproved": false,
+    "claimsApproved": false,
+    "crmApproved": false,
+    "publicationApproved": false
+  }
+}
